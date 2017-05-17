@@ -36,12 +36,12 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "invenco/prefix-test-with-dash": 2
+        "invenco/prefix-testcase-with-dash": "error"
     }
 }
 ```
 
 ## Supported Rules
 
-prefix-test-with-dash
+prefix-testcase-with-dash
 - a test title should start with a dash
