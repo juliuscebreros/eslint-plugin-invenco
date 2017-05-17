@@ -43,5 +43,5 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-prefix-test-with-dashes
+prefix-test-with-dash
 - a test title should start with a dash

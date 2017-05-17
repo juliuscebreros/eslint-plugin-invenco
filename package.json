@@ -2,6 +2,10 @@
   "name": "eslint-plugin-invenco",
   "version": "0.0.1",
   "description": "Invenco's Eslint Rules",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/juliuscebreros/eslint-plugin-invenco.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
