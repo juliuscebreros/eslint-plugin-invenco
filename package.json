@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-invenco",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Invenco's Eslint Rules",
   "respository": {
     "type": "git",
