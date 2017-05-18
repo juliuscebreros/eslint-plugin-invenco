@@ -45,3 +45,6 @@ Then configure the rules you want to use under the rules section.
 
 prefix-testcase-with-dash
 - a test title should start with a dash
+
+testcase-starts-with-should
+- a test title should start with 'should'
