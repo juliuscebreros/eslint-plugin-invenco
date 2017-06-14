@@ -6,6 +6,7 @@ ruleTester.run( 'testcase-starts-with-should', rules[ 'testcase-starts-with-shou
     valid: [
         'it( \'- should be valid test\' )',
         'it( "-should be valid with quotes" )',
+        'it( "-Should be valid with caps" )',
         'it( "-     should be valid with quotes" )',
         'it()',
         'it( "should", function() {});',
