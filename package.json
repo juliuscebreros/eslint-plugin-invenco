@@ -14,14 +14,14 @@
   "author": "Julius",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive --colors"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "debug": "^2.6.7",
-    "eslint": "~3.9.1",
+    "eslint": "^3.9.1",
     "mocha": "^3.1.2"
   },
   "engines": {
