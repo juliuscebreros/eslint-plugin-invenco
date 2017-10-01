@@ -48,3 +48,6 @@ prefix-testcase-with-dash
 
 testcase-starts-with-should
 - a test title should start with 'should'
+
+yield-db-commands
+- checks for yield in front of db commands
