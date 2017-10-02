@@ -33,6 +33,9 @@ ruleTester.run('yield-db-commands', rule, {
         },
         {
             code: buildTest(`yield conn.execute( 'COMMIT' )`)
+        },
+        {
+            code: buildTest(`co( function* test() { yield task(); } )`)
         }
     ],
     invalid: [
@@ -47,7 +50,7 @@ ruleTester.run('yield-db-commands', rule, {
                     \`SELECT * FROM us;\`
                 )`
             ),
-            errors: [{message: 'server.db.read.row must be yielded'}]
+            errors: [{message: 'server.db.read.row must use yield'}]
         },
         {
             code: buildTest(
@@ -64,7 +67,7 @@ ruleTester.run('yield-db-commands', rule, {
                         WHERE target_id = $2;
                 \`, [ updatePayload.siteId, device.id ] )`
             ),
-            errors: [{message: 'conn.execute must be yielded'}]
+            errors: [{message: 'conn.execute must use yield'}]
         }
     ]
 })
