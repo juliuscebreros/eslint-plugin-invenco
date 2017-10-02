@@ -4,7 +4,7 @@
   "description": "Invenco's Eslint Rules",
   "respository": {
     "type": "git",
-    "url": "https://github.com/juliuscebreros/eslint-plugin-invenco.git"
+    "url": "https://github.com/Invenco-Group-Limited/eslint-plugin-invenco.git"
   },
   "keywords": [
     "eslint",
